@@ -1,0 +1,255 @@
+14:20:03 | INFO | Dataset loaded
+14:20:03 | DEBUG | Dataset Shape: (284807, 31)
+14:20:03 | DEBUG | Percentage fraudulent transactions: 0.001727485630620034
+14:20:03 | DEBUG | Target Variable: Class
+14:20:03 | DEBUG | Input Variables: ['Time', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'V10', 'V11', 'V12', 'V13', 'V14', 'V15', 'V16', 'V17', 'V18', 'V19', 'V20', 'V21', 'V22', 'V23', 'V24', 'V25', 'V26', 'V27', 'V28', 'Amount']
+14:22:16 | INFO | Dataset loaded
+14:22:16 | DEBUG | Dataset Shape: (284807, 31)
+14:22:16 | DEBUG | Percentage Fraudulent Transactions: 0.001727485630620034
+14:22:16 | DEBUG | Target Variable: Class
+14:22:16 | DEBUG | Input Variables: ['Time', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'V10', 'V11', 'V12', 'V13', 'V14', 'V15', 'V16', 'V17', 'V18', 'V19', 'V20', 'V21', 'V22', 'V23', 'V24', 'V25', 'V26', 'V27', 'V28', 'Amount']
+14:22:49 | INFO | Dataset Downsampled
+14:22:49 | INFO | Sampled Dataset Shape: (85442, 31)
+14:22:49 | INFO | Sample Dataset Percentage Fraudulent Transactions: 0.0017321691907960957
+14:23:33 | INFO | Dataset Downsampled to 30%
+14:23:33 | INFO | Sampled Dataset Shape: (85442, 31)
+14:23:33 | INFO | Sample Dataset Percentage Fraudulent Transactions: 0.0017321691907960957
+14:23:44 | INFO | Dataset Downsampled to 30%
+14:23:44 | DEBUG | Sampled Dataset Shape: (85442, 31)
+14:23:44 | DEBUG | Sample Dataset Percentage Fraudulent Transactions: 0.0017321691907960957
+15:47:16 | INFO | Dataset loaded
+15:47:16 | DEBUG | Dataset Shape: (284807, 31)
+15:47:16 | DEBUG | Percentage Fraudulent Transactions: 0.001727485630620034
+15:47:16 | DEBUG | Target Variable: Class
+15:47:16 | DEBUG | Input Variables: ['Time', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'V10', 'V11', 'V12', 'V13', 'V14', 'V15', 'V16', 'V17', 'V18', 'V19', 'V20', 'V21', 'V22', 'V23', 'V24', 'V25', 'V26', 'V27', 'V28', 'Amount']
+15:47:21 | INFO | Dataset Downsampled to 30%
+15:47:21 | DEBUG | Sampled Dataset Shape: (28480, 31)
+15:47:21 | DEBUG | Sample Dataset Percentage Fraudulent Transactions: 0.001720505617977528
+15:49:35 | INFO | Dataset loaded
+15:49:35 | DEBUG | Dataset Shape: (284807, 31)
+15:49:35 | DEBUG | Percentage Fraudulent Transactions: 0.001727485630620034
+15:49:35 | DEBUG | Target Variable: Class
+15:49:35 | DEBUG | Input Variables: ['Time', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'V10', 'V11', 'V12', 'V13', 'V14', 'V15', 'V16', 'V17', 'V18', 'V19', 'V20', 'V21', 'V22', 'V23', 'V24', 'V25', 'V26', 'V27', 'V28', 'Amount']
+15:50:09 | INFO | Dataset Downsampled to 30%
+15:50:09 | DEBUG | Sampled Dataset Shape: (28480, 31)
+15:50:09 | DEBUG | Sample Dataset Percentage Fraudulent Transactions: 0.001720505617977528
+15:52:43 | INFO | Model Trained | Train Time: {total_training_time}
+15:54:48 | INFO | Model Trained | Train Time: 94.67230868339539 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 0.5} |
+15:59:07 | INFO | Model Trained | Train Time (Minutes): 1.7311120629310608 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 0.5} |
+16:02:18 | INFO | Model Trained | Train Time (Minutes): 1.7470179756482442 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 0.5} |
+16:19:34 | INFO | Model Performance | TP: 97.96% | FN: 2.04% | TN: 29.96% | FP: 70.04% |
+16:33:25 | INFO | Model Trained | Train Time (Minutes): 01:37 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 0.5} |
+16:33:25 | INFO | Model Evaluation (1/2) | TP: 97.96% | FN: 2.04% | TN: 29.96% | FP: 70.04% |
+16:33:25 | INFO | Model Evaluation (2/2) | Precision: 0.011907715207144629 | Recall: 0.9795918367346939 | F1: 0.023529411764705882 |
+16:44:45 | INFO | Model Trained | Train Time (Minutes): 01:41 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 0.5} |
+16:44:45 | INFO | Model Evaluation (1/2) | TP: 97.96% | FN: 2.04% | TN: 29.96% | FP: 70.04% |
+16:44:45 | INFO | Model Evaluation (2/2) | Precision: 0.012 | Recall: 0.980 | F1: 0.024 |
+16:45:16 | INFO | Grid Search Initiated | Combinations to attempts: 54
+16:48:20 | INFO | Grid Search Initiated | Combinations to attempts: 54
+16:48:22 | INFO | Model Trained | Train Time (Minutes): 00:02 | Parameters | {'kernel': 'linear', 'nu': 0.1, 'gamma': 'scale', 'degree': 2} |
+16:48:22 | INFO | Model Evaluation (1/2) | TP: 10.20% | FN: 89.80% | TN: 6.86% | FP: 93.14% |
+16:48:22 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.102 | F1: 0.002 |
+16:48:25 | INFO | Model Trained | Train Time (Minutes): 00:02 | Parameters | {'kernel': 'linear', 'nu': 0.1, 'gamma': 'scale', 'degree': 3} |
+16:48:25 | INFO | Model Evaluation (1/2) | TP: 10.20% | FN: 89.80% | TN: 6.86% | FP: 93.14% |
+16:48:25 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.102 | F1: 0.002 |
+16:48:27 | INFO | Model Trained | Train Time (Minutes): 00:02 | Parameters | {'kernel': 'linear', 'nu': 0.1, 'gamma': 'scale', 'degree': 4} |
+16:48:27 | INFO | Model Evaluation (1/2) | TP: 10.20% | FN: 89.80% | TN: 6.86% | FP: 93.14% |
+16:48:27 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.102 | F1: 0.002 |
+16:48:29 | INFO | Model Trained | Train Time (Minutes): 00:01 | Parameters | {'kernel': 'linear', 'nu': 0.1, 'gamma': 'auto', 'degree': 2} |
+16:48:29 | INFO | Model Evaluation (1/2) | TP: 10.20% | FN: 89.80% | TN: 6.86% | FP: 93.14% |
+16:48:29 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.102 | F1: 0.002 |
+16:48:31 | INFO | Model Trained | Train Time (Minutes): 00:02 | Parameters | {'kernel': 'linear', 'nu': 0.1, 'gamma': 'auto', 'degree': 3} |
+16:48:31 | INFO | Model Evaluation (1/2) | TP: 10.20% | FN: 89.80% | TN: 6.86% | FP: 93.14% |
+16:48:31 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.102 | F1: 0.002 |
+16:48:33 | INFO | Model Trained | Train Time (Minutes): 00:02 | Parameters | {'kernel': 'linear', 'nu': 0.1, 'gamma': 'auto', 'degree': 4} |
+16:48:33 | INFO | Model Evaluation (1/2) | TP: 10.20% | FN: 89.80% | TN: 6.86% | FP: 93.14% |
+16:48:33 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.102 | F1: 0.002 |
+16:48:37 | INFO | Model Trained | Train Time (Minutes): 00:03 | Parameters | {'kernel': 'linear', 'nu': 0.2, 'gamma': 'scale', 'degree': 2} |
+16:48:37 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 8.88% | FP: 91.12% |
+16:48:37 | INFO | Model Evaluation (2/2) | Precision: 0.003 | Recall: 0.347 | F1: 0.006 |
+16:48:41 | INFO | Model Trained | Train Time (Minutes): 00:03 | Parameters | {'kernel': 'linear', 'nu': 0.2, 'gamma': 'scale', 'degree': 3} |
+16:48:41 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 8.88% | FP: 91.12% |
+16:48:41 | INFO | Model Evaluation (2/2) | Precision: 0.003 | Recall: 0.347 | F1: 0.006 |
+16:48:45 | INFO | Model Trained | Train Time (Minutes): 00:04 | Parameters | {'kernel': 'linear', 'nu': 0.2, 'gamma': 'scale', 'degree': 4} |
+16:48:45 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 8.88% | FP: 91.12% |
+16:48:45 | INFO | Model Evaluation (2/2) | Precision: 0.003 | Recall: 0.347 | F1: 0.006 |
+16:48:49 | INFO | Model Trained | Train Time (Minutes): 00:03 | Parameters | {'kernel': 'linear', 'nu': 0.2, 'gamma': 'auto', 'degree': 2} |
+16:48:49 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 8.88% | FP: 91.12% |
+16:48:49 | INFO | Model Evaluation (2/2) | Precision: 0.003 | Recall: 0.347 | F1: 0.006 |
+16:48:53 | INFO | Model Trained | Train Time (Minutes): 00:04 | Parameters | {'kernel': 'linear', 'nu': 0.2, 'gamma': 'auto', 'degree': 3} |
+16:48:53 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 8.88% | FP: 91.12% |
+16:48:53 | INFO | Model Evaluation (2/2) | Precision: 0.003 | Recall: 0.347 | F1: 0.006 |
+16:48:57 | INFO | Model Trained | Train Time (Minutes): 00:04 | Parameters | {'kernel': 'linear', 'nu': 0.2, 'gamma': 'auto', 'degree': 4} |
+16:48:57 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 8.88% | FP: 91.12% |
+16:48:57 | INFO | Model Evaluation (2/2) | Precision: 0.003 | Recall: 0.347 | F1: 0.006 |
+16:49:07 | INFO | Model Trained | Train Time (Minutes): 00:10 | Parameters | {'kernel': 'linear', 'nu': 0.5, 'gamma': 'scale', 'degree': 2} |
+16:49:07 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 5.40% | FP: 94.60% |
+16:49:07 | INFO | Model Evaluation (2/2) | Precision: 0.003 | Recall: 0.347 | F1: 0.006 |
+16:49:18 | INFO | Model Trained | Train Time (Minutes): 00:10 | Parameters | {'kernel': 'linear', 'nu': 0.5, 'gamma': 'scale', 'degree': 3} |
+16:49:18 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 5.40% | FP: 94.60% |
+16:49:18 | INFO | Model Evaluation (2/2) | Precision: 0.003 | Recall: 0.347 | F1: 0.006 |
+16:49:28 | INFO | Model Trained | Train Time (Minutes): 00:10 | Parameters | {'kernel': 'linear', 'nu': 0.5, 'gamma': 'scale', 'degree': 4} |
+16:49:28 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 5.40% | FP: 94.60% |
+16:49:28 | INFO | Model Evaluation (2/2) | Precision: 0.003 | Recall: 0.347 | F1: 0.006 |
+16:49:38 | INFO | Model Trained | Train Time (Minutes): 00:10 | Parameters | {'kernel': 'linear', 'nu': 0.5, 'gamma': 'auto', 'degree': 2} |
+16:49:38 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 5.40% | FP: 94.60% |
+16:49:38 | INFO | Model Evaluation (2/2) | Precision: 0.003 | Recall: 0.347 | F1: 0.006 |
+16:49:48 | INFO | Model Trained | Train Time (Minutes): 00:09 | Parameters | {'kernel': 'linear', 'nu': 0.5, 'gamma': 'auto', 'degree': 3} |
+16:49:48 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 5.40% | FP: 94.60% |
+16:49:48 | INFO | Model Evaluation (2/2) | Precision: 0.003 | Recall: 0.347 | F1: 0.006 |
+16:49:58 | INFO | Model Trained | Train Time (Minutes): 00:09 | Parameters | {'kernel': 'linear', 'nu': 0.5, 'gamma': 'auto', 'degree': 4} |
+16:49:58 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 5.40% | FP: 94.60% |
+16:49:58 | INFO | Model Evaluation (2/2) | Precision: 0.003 | Recall: 0.347 | F1: 0.006 |
+16:50:06 | INFO | Model Trained | Train Time (Minutes): 00:08 | Parameters | {'kernel': 'rbf', 'nu': 0.1, 'gamma': 'scale', 'degree': 2} |
+16:50:06 | INFO | Model Evaluation (1/2) | TP: 91.84% | FN: 8.16% | TN: 89.94% | FP: 10.06% |
+16:50:06 | INFO | Model Evaluation (2/2) | Precision: 0.073 | Recall: 0.918 | F1: 0.135 |
+16:50:14 | INFO | Model Trained | Train Time (Minutes): 00:08 | Parameters | {'kernel': 'rbf', 'nu': 0.1, 'gamma': 'scale', 'degree': 3} |
+16:50:14 | INFO | Model Evaluation (1/2) | TP: 91.84% | FN: 8.16% | TN: 89.94% | FP: 10.06% |
+16:50:14 | INFO | Model Evaluation (2/2) | Precision: 0.073 | Recall: 0.918 | F1: 0.135 |
+16:50:22 | INFO | Model Trained | Train Time (Minutes): 00:08 | Parameters | {'kernel': 'rbf', 'nu': 0.1, 'gamma': 'scale', 'degree': 4} |
+16:50:22 | INFO | Model Evaluation (1/2) | TP: 91.84% | FN: 8.16% | TN: 89.94% | FP: 10.06% |
+16:50:22 | INFO | Model Evaluation (2/2) | Precision: 0.073 | Recall: 0.918 | F1: 0.135 |
+16:50:31 | INFO | Model Trained | Train Time (Minutes): 00:08 | Parameters | {'kernel': 'rbf', 'nu': 0.1, 'gamma': 'auto', 'degree': 2} |
+16:50:31 | INFO | Model Evaluation (1/2) | TP: 91.84% | FN: 8.16% | TN: 89.94% | FP: 10.06% |
+16:50:31 | INFO | Model Evaluation (2/2) | Precision: 0.073 | Recall: 0.918 | F1: 0.135 |
+16:50:39 | INFO | Model Trained | Train Time (Minutes): 00:08 | Parameters | {'kernel': 'rbf', 'nu': 0.1, 'gamma': 'auto', 'degree': 3} |
+16:50:39 | INFO | Model Evaluation (1/2) | TP: 91.84% | FN: 8.16% | TN: 89.94% | FP: 10.06% |
+16:50:39 | INFO | Model Evaluation (2/2) | Precision: 0.073 | Recall: 0.918 | F1: 0.135 |
+16:50:47 | INFO | Model Trained | Train Time (Minutes): 00:08 | Parameters | {'kernel': 'rbf', 'nu': 0.1, 'gamma': 'auto', 'degree': 4} |
+16:50:47 | INFO | Model Evaluation (1/2) | TP: 91.84% | FN: 8.16% | TN: 89.94% | FP: 10.06% |
+16:50:47 | INFO | Model Evaluation (2/2) | Precision: 0.073 | Recall: 0.918 | F1: 0.135 |
+16:51:04 | INFO | Model Trained | Train Time (Minutes): 00:17 | Parameters | {'kernel': 'rbf', 'nu': 0.2, 'gamma': 'scale', 'degree': 2} |
+16:51:04 | INFO | Model Evaluation (1/2) | TP: 93.88% | FN: 6.12% | TN: 79.76% | FP: 20.24% |
+16:51:05 | INFO | Model Evaluation (2/2) | Precision: 0.038 | Recall: 0.939 | F1: 0.074 |
+16:51:21 | INFO | Model Trained | Train Time (Minutes): 00:16 | Parameters | {'kernel': 'rbf', 'nu': 0.2, 'gamma': 'scale', 'degree': 3} |
+16:51:21 | INFO | Model Evaluation (1/2) | TP: 93.88% | FN: 6.12% | TN: 79.76% | FP: 20.24% |
+16:51:21 | INFO | Model Evaluation (2/2) | Precision: 0.038 | Recall: 0.939 | F1: 0.074 |
+16:51:38 | INFO | Model Trained | Train Time (Minutes): 00:16 | Parameters | {'kernel': 'rbf', 'nu': 0.2, 'gamma': 'scale', 'degree': 4} |
+16:51:38 | INFO | Model Evaluation (1/2) | TP: 93.88% | FN: 6.12% | TN: 79.76% | FP: 20.24% |
+16:51:38 | INFO | Model Evaluation (2/2) | Precision: 0.038 | Recall: 0.939 | F1: 0.074 |
+16:51:55 | INFO | Model Trained | Train Time (Minutes): 00:16 | Parameters | {'kernel': 'rbf', 'nu': 0.2, 'gamma': 'auto', 'degree': 2} |
+16:51:55 | INFO | Model Evaluation (1/2) | TP: 93.88% | FN: 6.12% | TN: 79.76% | FP: 20.24% |
+16:51:55 | INFO | Model Evaluation (2/2) | Precision: 0.038 | Recall: 0.939 | F1: 0.074 |
+16:52:11 | INFO | Model Trained | Train Time (Minutes): 00:16 | Parameters | {'kernel': 'rbf', 'nu': 0.2, 'gamma': 'auto', 'degree': 3} |
+16:52:11 | INFO | Model Evaluation (1/2) | TP: 93.88% | FN: 6.12% | TN: 79.76% | FP: 20.24% |
+16:52:11 | INFO | Model Evaluation (2/2) | Precision: 0.038 | Recall: 0.939 | F1: 0.074 |
+16:52:27 | INFO | Model Trained | Train Time (Minutes): 00:15 | Parameters | {'kernel': 'rbf', 'nu': 0.2, 'gamma': 'auto', 'degree': 4} |
+16:52:27 | INFO | Model Evaluation (1/2) | TP: 93.88% | FN: 6.12% | TN: 79.76% | FP: 20.24% |
+16:52:27 | INFO | Model Evaluation (2/2) | Precision: 0.038 | Recall: 0.939 | F1: 0.074 |
+16:53:00 | INFO | Model Trained | Train Time (Minutes): 00:33 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 'scale', 'degree': 2} |
+16:53:00 | INFO | Model Evaluation (1/2) | TP: 93.88% | FN: 6.12% | TN: 51.01% | FP: 48.99% |
+16:53:00 | INFO | Model Evaluation (2/2) | Precision: 0.016 | Recall: 0.939 | F1: 0.032 |
+16:53:34 | INFO | Model Trained | Train Time (Minutes): 00:33 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 'scale', 'degree': 3} |
+16:53:34 | INFO | Model Evaluation (1/2) | TP: 93.88% | FN: 6.12% | TN: 51.01% | FP: 48.99% |
+16:53:34 | INFO | Model Evaluation (2/2) | Precision: 0.016 | Recall: 0.939 | F1: 0.032 |
+16:54:08 | INFO | Model Trained | Train Time (Minutes): 00:34 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 'scale', 'degree': 4} |
+16:54:08 | INFO | Model Evaluation (1/2) | TP: 93.88% | FN: 6.12% | TN: 51.01% | FP: 48.99% |
+16:54:08 | INFO | Model Evaluation (2/2) | Precision: 0.016 | Recall: 0.939 | F1: 0.032 |
+16:54:41 | INFO | Model Trained | Train Time (Minutes): 00:32 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 'auto', 'degree': 2} |
+16:54:41 | INFO | Model Evaluation (1/2) | TP: 93.88% | FN: 6.12% | TN: 51.01% | FP: 48.99% |
+16:54:41 | INFO | Model Evaluation (2/2) | Precision: 0.016 | Recall: 0.939 | F1: 0.032 |
+16:55:15 | INFO | Model Trained | Train Time (Minutes): 00:33 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 'auto', 'degree': 3} |
+16:55:15 | INFO | Model Evaluation (1/2) | TP: 93.88% | FN: 6.12% | TN: 51.01% | FP: 48.99% |
+16:55:15 | INFO | Model Evaluation (2/2) | Precision: 0.016 | Recall: 0.939 | F1: 0.032 |
+16:55:48 | INFO | Model Trained | Train Time (Minutes): 00:33 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 'auto', 'degree': 4} |
+16:55:48 | INFO | Model Evaluation (1/2) | TP: 93.88% | FN: 6.12% | TN: 51.01% | FP: 48.99% |
+16:55:48 | INFO | Model Evaluation (2/2) | Precision: 0.016 | Recall: 0.939 | F1: 0.032 |
+16:55:53 | INFO | Model Trained | Train Time (Minutes): 00:05 | Parameters | {'kernel': 'poly', 'nu': 0.1, 'gamma': 'scale', 'degree': 2} |
+16:55:53 | INFO | Model Evaluation (1/2) | TP: 2.04% | FN: 97.96% | TN: 90.29% | FP: 9.71% |
+16:55:53 | INFO | Model Evaluation (2/2) | Precision: 0.002 | Recall: 0.020 | F1: 0.003 |
+16:56:00 | INFO | Model Trained | Train Time (Minutes): 00:06 | Parameters | {'kernel': 'poly', 'nu': 0.1, 'gamma': 'scale', 'degree': 3} |
+16:56:00 | INFO | Model Evaluation (1/2) | TP: 22.45% | FN: 77.55% | TN: 87.69% | FP: 12.31% |
+16:56:00 | INFO | Model Evaluation (2/2) | Precision: 0.015 | Recall: 0.224 | F1: 0.029 |
+16:56:06 | INFO | Model Trained | Train Time (Minutes): 00:06 | Parameters | {'kernel': 'poly', 'nu': 0.1, 'gamma': 'scale', 'degree': 4} |
+16:56:06 | INFO | Model Evaluation (1/2) | TP: 2.04% | FN: 97.96% | TN: 89.08% | FP: 10.92% |
+16:56:06 | INFO | Model Evaluation (2/2) | Precision: 0.002 | Recall: 0.020 | F1: 0.003 |
+16:56:12 | INFO | Model Trained | Train Time (Minutes): 00:05 | Parameters | {'kernel': 'poly', 'nu': 0.1, 'gamma': 'auto', 'degree': 2} |
+16:56:12 | INFO | Model Evaluation (1/2) | TP: 2.04% | FN: 97.96% | TN: 90.29% | FP: 9.71% |
+16:56:12 | INFO | Model Evaluation (2/2) | Precision: 0.002 | Recall: 0.020 | F1: 0.003 |
+16:56:18 | INFO | Model Trained | Train Time (Minutes): 00:06 | Parameters | {'kernel': 'poly', 'nu': 0.1, 'gamma': 'auto', 'degree': 3} |
+16:56:18 | INFO | Model Evaluation (1/2) | TP: 22.45% | FN: 77.55% | TN: 87.69% | FP: 12.31% |
+16:56:18 | INFO | Model Evaluation (2/2) | Precision: 0.015 | Recall: 0.224 | F1: 0.029 |
+16:56:24 | INFO | Model Trained | Train Time (Minutes): 00:06 | Parameters | {'kernel': 'poly', 'nu': 0.1, 'gamma': 'auto', 'degree': 4} |
+16:56:24 | INFO | Model Evaluation (1/2) | TP: 2.04% | FN: 97.96% | TN: 89.08% | FP: 10.92% |
+16:56:24 | INFO | Model Evaluation (2/2) | Precision: 0.002 | Recall: 0.020 | F1: 0.003 |
+16:56:36 | INFO | Model Trained | Train Time (Minutes): 00:11 | Parameters | {'kernel': 'poly', 'nu': 0.2, 'gamma': 'scale', 'degree': 2} |
+16:56:36 | INFO | Model Evaluation (1/2) | TP: 2.04% | FN: 97.96% | TN: 78.78% | FP: 21.22% |
+16:56:36 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.020 | F1: 0.002 |
+16:56:49 | INFO | Model Trained | Train Time (Minutes): 00:13 | Parameters | {'kernel': 'poly', 'nu': 0.2, 'gamma': 'scale', 'degree': 3} |
+16:56:49 | INFO | Model Evaluation (1/2) | TP: 22.45% | FN: 77.55% | TN: 77.58% | FP: 22.42% |
+16:56:49 | INFO | Model Evaluation (2/2) | Precision: 0.009 | Recall: 0.224 | F1: 0.016 |
+16:57:02 | INFO | Model Trained | Train Time (Minutes): 00:12 | Parameters | {'kernel': 'poly', 'nu': 0.2, 'gamma': 'scale', 'degree': 4} |
+16:57:02 | INFO | Model Evaluation (1/2) | TP: 2.04% | FN: 97.96% | TN: 78.51% | FP: 21.49% |
+16:57:02 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.020 | F1: 0.002 |
+16:57:14 | INFO | Model Trained | Train Time (Minutes): 00:11 | Parameters | {'kernel': 'poly', 'nu': 0.2, 'gamma': 'auto', 'degree': 2} |
+16:57:14 | INFO | Model Evaluation (1/2) | TP: 2.04% | FN: 97.96% | TN: 78.78% | FP: 21.22% |
+16:57:14 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.020 | F1: 0.002 |
+16:57:26 | INFO | Model Trained | Train Time (Minutes): 00:12 | Parameters | {'kernel': 'poly', 'nu': 0.2, 'gamma': 'auto', 'degree': 3} |
+16:57:26 | INFO | Model Evaluation (1/2) | TP: 22.45% | FN: 77.55% | TN: 77.58% | FP: 22.42% |
+16:57:26 | INFO | Model Evaluation (2/2) | Precision: 0.009 | Recall: 0.224 | F1: 0.016 |
+16:57:38 | INFO | Model Trained | Train Time (Minutes): 00:11 | Parameters | {'kernel': 'poly', 'nu': 0.2, 'gamma': 'auto', 'degree': 4} |
+16:57:38 | INFO | Model Evaluation (1/2) | TP: 2.04% | FN: 97.96% | TN: 78.51% | FP: 21.49% |
+16:57:38 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.020 | F1: 0.002 |
+16:58:01 | INFO | Model Trained | Train Time (Minutes): 00:23 | Parameters | {'kernel': 'poly', 'nu': 0.5, 'gamma': 'scale', 'degree': 2} |
+16:58:01 | INFO | Model Evaluation (1/2) | TP: 8.16% | FN: 91.84% | TN: 48.90% | FP: 51.10% |
+16:58:01 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.082 | F1: 0.003 |
+16:58:27 | INFO | Model Trained | Train Time (Minutes): 00:25 | Parameters | {'kernel': 'poly', 'nu': 0.5, 'gamma': 'scale', 'degree': 3} |
+16:58:27 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 48.64% | FP: 51.36% |
+16:58:27 | INFO | Model Evaluation (2/2) | Precision: 0.006 | Recall: 0.347 | F1: 0.011 |
+16:58:53 | INFO | Model Trained | Train Time (Minutes): 00:26 | Parameters | {'kernel': 'poly', 'nu': 0.5, 'gamma': 'scale', 'degree': 4} |
+16:58:53 | INFO | Model Evaluation (1/2) | TP: 8.16% | FN: 91.84% | TN: 48.51% | FP: 51.49% |
+16:58:53 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.082 | F1: 0.003 |
+16:59:17 | INFO | Model Trained | Train Time (Minutes): 00:24 | Parameters | {'kernel': 'poly', 'nu': 0.5, 'gamma': 'auto', 'degree': 2} |
+16:59:17 | INFO | Model Evaluation (1/2) | TP: 8.16% | FN: 91.84% | TN: 48.90% | FP: 51.10% |
+16:59:17 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.082 | F1: 0.003 |
+16:59:43 | INFO | Model Trained | Train Time (Minutes): 00:25 | Parameters | {'kernel': 'poly', 'nu': 0.5, 'gamma': 'auto', 'degree': 3} |
+16:59:43 | INFO | Model Evaluation (1/2) | TP: 34.69% | FN: 65.31% | TN: 48.64% | FP: 51.36% |
+16:59:43 | INFO | Model Evaluation (2/2) | Precision: 0.006 | Recall: 0.347 | F1: 0.011 |
+17:00:08 | INFO | Model Trained | Train Time (Minutes): 00:25 | Parameters | {'kernel': 'poly', 'nu': 0.5, 'gamma': 'auto', 'degree': 4} |
+17:00:08 | INFO | Model Evaluation (1/2) | TP: 8.16% | FN: 91.84% | TN: 48.51% | FP: 51.49% |
+17:00:08 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.082 | F1: 0.003 |
+17:00:08 | INFO | Grid Search Results | Best F1 Score: 0.135 | Parameters: {'kernel': 'rbf', 'nu': 0.1, 'gamma': 'scale', 'degree': 2} |
+17:44:01 | INFO | Dataset Downsampled to 30%
+17:44:01 | DEBUG | Sampled Dataset Shape: (85442, 31)
+17:44:01 | DEBUG | Sample Dataset Percentage Fraudulent Transactions: 0.0017321691907960957
+17:56:13 | INFO | Model Trained | Train Time (Minutes): 11:40 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 0.5} |
+17:56:13 | INFO | Model Evaluation (1/2) | TP: 98.65% | FN: 1.35% | TN: 41.13% | FP: 58.87% |
+17:56:13 | INFO | Model Evaluation (2/2) | Precision: 0.014 | Recall: 0.986 | F1: 0.028 |
+18:07:35 | INFO | Grid Search Initiated | Combinations to attempts: 12
+18:07:56 | INFO | Model Trained | Train Time (Minutes): 00:21 | Parameters | {'kernel': 'linear', 'nu': 0.1, 'gamma': 'scale'} |
+18:07:56 | INFO | Model Evaluation (1/2) | TP: 39.86% | FN: 60.14% | TN: 3.14% | FP: 96.86% |
+18:07:56 | INFO | Model Evaluation (2/2) | Precision: 0.004 | Recall: 0.399 | F1: 0.007 |
+18:08:17 | INFO | Model Trained | Train Time (Minutes): 00:20 | Parameters | {'kernel': 'linear', 'nu': 0.1, 'gamma': 'auto'} |
+18:08:17 | INFO | Model Evaluation (1/2) | TP: 39.86% | FN: 60.14% | TN: 3.14% | FP: 96.86% |
+18:08:17 | INFO | Model Evaluation (2/2) | Precision: 0.004 | Recall: 0.399 | F1: 0.007 |
+18:08:59 | INFO | Model Trained | Train Time (Minutes): 00:41 | Parameters | {'kernel': 'linear', 'nu': 0.2, 'gamma': 'scale'} |
+18:08:59 | INFO | Model Evaluation (1/2) | TP: 14.19% | FN: 85.81% | TN: 2.13% | FP: 97.87% |
+18:08:59 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.142 | F1: 0.002 |
+18:09:40 | INFO | Model Trained | Train Time (Minutes): 00:41 | Parameters | {'kernel': 'linear', 'nu': 0.2, 'gamma': 'auto'} |
+18:09:40 | INFO | Model Evaluation (1/2) | TP: 14.19% | FN: 85.81% | TN: 2.13% | FP: 97.87% |
+18:09:40 | INFO | Model Evaluation (2/2) | Precision: 0.001 | Recall: 0.142 | F1: 0.002 |
+18:11:50 | INFO | Model Trained | Train Time (Minutes): 02:09 | Parameters | {'kernel': 'linear', 'nu': 0.5, 'gamma': 'scale'} |
+18:11:50 | INFO | Model Evaluation (1/2) | TP: 40.54% | FN: 59.46% | TN: 28.21% | FP: 71.79% |
+18:11:50 | INFO | Model Evaluation (2/2) | Precision: 0.005 | Recall: 0.405 | F1: 0.010 |
+18:13:59 | INFO | Model Trained | Train Time (Minutes): 02:09 | Parameters | {'kernel': 'linear', 'nu': 0.5, 'gamma': 'auto'} |
+18:13:59 | INFO | Model Evaluation (1/2) | TP: 40.54% | FN: 59.46% | TN: 28.21% | FP: 71.79% |
+18:13:59 | INFO | Model Evaluation (2/2) | Precision: 0.005 | Recall: 0.405 | F1: 0.010 |
+18:15:37 | INFO | Model Trained | Train Time (Minutes): 01:38 | Parameters | {'kernel': 'rbf', 'nu': 0.1, 'gamma': 'scale'} |
+18:15:37 | INFO | Model Evaluation (1/2) | TP: 92.57% | FN: 7.43% | TN: 90.01% | FP: 9.99% |
+18:15:38 | INFO | Model Evaluation (2/2) | Precision: 0.074 | Recall: 0.926 | F1: 0.138 |
+18:17:16 | INFO | Model Trained | Train Time (Minutes): 01:38 | Parameters | {'kernel': 'rbf', 'nu': 0.1, 'gamma': 'auto'} |
+18:17:16 | INFO | Model Evaluation (1/2) | TP: 92.57% | FN: 7.43% | TN: 90.01% | FP: 9.99% |
+18:17:16 | INFO | Model Evaluation (2/2) | Precision: 0.074 | Recall: 0.926 | F1: 0.138 |
+18:20:32 | INFO | Model Trained | Train Time (Minutes): 03:15 | Parameters | {'kernel': 'rbf', 'nu': 0.2, 'gamma': 'scale'} |
+18:20:32 | INFO | Model Evaluation (1/2) | TP: 94.59% | FN: 5.41% | TN: 80.27% | FP: 19.73% |
+18:20:32 | INFO | Model Evaluation (2/2) | Precision: 0.040 | Recall: 0.946 | F1: 0.077 |
+18:23:47 | INFO | Model Trained | Train Time (Minutes): 03:15 | Parameters | {'kernel': 'rbf', 'nu': 0.2, 'gamma': 'auto'} |
+18:23:47 | INFO | Model Evaluation (1/2) | TP: 94.59% | FN: 5.41% | TN: 80.27% | FP: 19.73% |
+18:23:47 | INFO | Model Evaluation (2/2) | Precision: 0.040 | Recall: 0.946 | F1: 0.077 |
+18:30:04 | INFO | Model Trained | Train Time (Minutes): 06:17 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 'scale'} |
+18:30:04 | INFO | Model Evaluation (1/2) | TP: 95.95% | FN: 4.05% | TN: 50.01% | FP: 49.99% |
+18:30:04 | INFO | Model Evaluation (2/2) | Precision: 0.016 | Recall: 0.959 | F1: 0.032 |
+18:36:21 | INFO | Model Trained | Train Time (Minutes): 06:16 | Parameters | {'kernel': 'rbf', 'nu': 0.5, 'gamma': 'auto'} |
+18:36:21 | INFO | Model Evaluation (1/2) | TP: 95.95% | FN: 4.05% | TN: 50.01% | FP: 49.99% |
+18:36:21 | INFO | Model Evaluation (2/2) | Precision: 0.016 | Recall: 0.959 | F1: 0.032 |
+18:36:21 | INFO | Grid Search Results | Best F1 Score: 0.138 | Parameters: {'kernel': 'rbf', 'nu': 0.1, 'gamma': 'scale'} |
