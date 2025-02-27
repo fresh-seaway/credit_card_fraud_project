@@ -253,3 +253,5 @@
 18:36:21 | INFO | Model Evaluation (1/2) | TP: 95.95% | FN: 4.05% | TN: 50.01% | FP: 49.99% |
 18:36:21 | INFO | Model Evaluation (2/2) | Precision: 0.016 | Recall: 0.959 | F1: 0.032 |
 18:36:21 | INFO | Grid Search Results | Best F1 Score: 0.138 | Parameters: {'kernel': 'rbf', 'nu': 0.1, 'gamma': 'scale'} |
+22:11:36 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:32 | Parameters | {} |
+22:12:37 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:33 | Parameters | {} |
