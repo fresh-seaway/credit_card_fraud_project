@@ -80,3 +80,38 @@
 21:21:28 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 2, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 760 | Noise: 26.98% | Fraud in cluster: 70 | Fraud in noise: 28
 21:21:50 | INFO | Search 24 / 24
 21:23:04 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 2, 'cluster_selection_epsilon': 1.6, 'n_jobs': -1} | Clusters: 680 | Noise: 25.12% | Fraud in cluster: 70 | Fraud in noise: 28
+22:42:49 | INFO | Grid Search Initiated | Combinations to attempt: 1
+22:42:49 | INFO | Search 1 / 1
+23:34:16 | INFO | Grid Search Initiated | Combinations to attempt: 1
+23:34:16 | INFO | Search 1 / 1
+23:35:55 | INFO | Grid Search Initiated | Combinations to attempt: 1
+23:35:55 | INFO | Search 1 / 1
+23:38:23 | INFO | Grid Search Initiated | Combinations to attempt: 1
+23:38:23 | INFO | Search 1 / 1
+23:40:54 | INFO | Grid Search Initiated | Combinations to attempt: 1
+23:40:54 | INFO | Search 1 / 1
+23:48:27 | INFO | Grid Search Initiated | Combinations to attempt: 1
+23:48:27 | INFO | Search 1 / 1
+23:51:10 | INFO | Grid Search Initiated | Combinations to attempt: 1
+23:51:10 | INFO | Search 1 / 1
+23:53:39 | INFO | Grid Search Initiated | Combinations to attempt: 1
+23:53:39 | INFO | Search 1 / 1
+23:59:53 | INFO | Grid Search Initiated | Combinations to attempt: 18
+23:59:53 | INFO | Search 1 / 18
+00:01:31 | INFO | Search 2 / 18
+00:03:07 | INFO | Search 3 / 18
+00:04:42 | INFO | Search 4 / 18
+00:06:28 | INFO | Search 5 / 18
+00:08:13 | INFO | Search 6 / 18
+00:09:57 | INFO | Search 7 / 18
+00:11:26 | INFO | Search 8 / 18
+00:12:55 | INFO | Search 9 / 18
+00:14:25 | INFO | Search 10 / 18
+00:16:03 | INFO | Search 11 / 18
+00:17:43 | INFO | Search 12 / 18
+00:19:22 | INFO | Search 13 / 18
+00:20:50 | INFO | Search 14 / 18
+00:22:18 | INFO | Search 15 / 18
+00:23:46 | INFO | Search 16 / 18
+00:25:23 | INFO | Search 17 / 18
+00:26:59 | INFO | Search 18 / 18
