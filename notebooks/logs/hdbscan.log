@@ -1,139 +1,303 @@
-22:19:55 | INFO | Grid Search Initiated | Combinations to attempt: 45
-22:19:55 | INFO | Search 0 / 45
-22:20:13 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 5, 'min_samples': None, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:20:13 | INFO | # Clusters: 1880 | Noise: 12.2% | Fraud in cluster: 29 | Fraud in noise: 20
-22:20:13 | INFO | Search 1 / 45
-22:20:30 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 5, 'min_samples': None, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:20:30 | INFO | # Clusters: 1880 | Noise: 12.2% | Fraud in cluster: 29 | Fraud in noise: 20
-22:20:30 | INFO | Search 2 / 45
-22:20:48 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 5, 'min_samples': None, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:20:48 | INFO | # Clusters: 1880 | Noise: 12.2% | Fraud in cluster: 29 | Fraud in noise: 20
-22:20:48 | INFO | Search 3 / 45
-22:21:06 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 5, 'min_samples': 5, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:21:06 | INFO | # Clusters: 1880 | Noise: 12.2% | Fraud in cluster: 29 | Fraud in noise: 20
-22:21:06 | INFO | Search 4 / 45
-22:21:23 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 5, 'min_samples': 5, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:21:23 | INFO | # Clusters: 1880 | Noise: 12.2% | Fraud in cluster: 29 | Fraud in noise: 20
-22:21:23 | INFO | Search 5 / 45
-22:21:41 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 5, 'min_samples': 5, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:21:41 | INFO | # Clusters: 1880 | Noise: 12.2% | Fraud in cluster: 29 | Fraud in noise: 20
-22:21:41 | INFO | Search 6 / 45
-22:21:58 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 5, 'min_samples': 10, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:21:58 | INFO | # Clusters: 940 | Noise: 20.04% | Fraud in cluster: 28 | Fraud in noise: 21
-22:21:58 | INFO | Search 7 / 45
-22:22:15 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 5, 'min_samples': 10, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:22:15 | INFO | # Clusters: 940 | Noise: 20.04% | Fraud in cluster: 28 | Fraud in noise: 21
-22:22:15 | INFO | Search 8 / 45
-22:22:32 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 5, 'min_samples': 10, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:22:32 | INFO | # Clusters: 940 | Noise: 20.04% | Fraud in cluster: 28 | Fraud in noise: 21
-22:22:32 | INFO | Search 9 / 45
-22:22:48 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 25, 'min_samples': None, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:22:48 | INFO | # Clusters: 250 | Noise: 21.0% | Fraud in cluster: 33 | Fraud in noise: 16
-22:22:48 | INFO | Search 10 / 45
-22:23:04 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 25, 'min_samples': None, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:23:04 | INFO | # Clusters: 250 | Noise: 21.0% | Fraud in cluster: 33 | Fraud in noise: 16
-22:23:04 | INFO | Search 11 / 45
-22:23:21 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 25, 'min_samples': None, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:23:21 | INFO | # Clusters: 250 | Noise: 21.0% | Fraud in cluster: 33 | Fraud in noise: 16
-22:23:21 | INFO | Search 12 / 45
-22:23:38 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 25, 'min_samples': 5, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:23:38 | INFO | # Clusters: 475 | Noise: 6.47% | Fraud in cluster: 33 | Fraud in noise: 16
-22:23:38 | INFO | Search 13 / 45
-22:23:56 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 25, 'min_samples': 5, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:23:56 | INFO | # Clusters: 475 | Noise: 6.47% | Fraud in cluster: 33 | Fraud in noise: 16
-22:23:56 | INFO | Search 14 / 45
-22:24:13 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 25, 'min_samples': 5, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:24:13 | INFO | # Clusters: 475 | Noise: 6.47% | Fraud in cluster: 33 | Fraud in noise: 16
-22:24:13 | INFO | Search 15 / 45
-22:24:30 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 25, 'min_samples': 10, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:24:30 | INFO | # Clusters: 402 | Noise: 11.7% | Fraud in cluster: 32 | Fraud in noise: 17
-22:24:30 | INFO | Search 16 / 45
-22:24:46 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 25, 'min_samples': 10, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:24:46 | INFO | # Clusters: 402 | Noise: 11.7% | Fraud in cluster: 32 | Fraud in noise: 17
-22:24:46 | INFO | Search 17 / 45
-22:25:03 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 25, 'min_samples': 10, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:25:03 | INFO | # Clusters: 402 | Noise: 11.7% | Fraud in cluster: 32 | Fraud in noise: 17
-22:25:03 | INFO | Search 18 / 45
-22:25:19 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:15 | Parameters | {'min_cluster_size': 50, 'min_samples': None, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:25:19 | INFO | # Clusters: 14 | Noise: 2.03% | Fraud in cluster: 44 | Fraud in noise: 5
-22:25:19 | INFO | Search 19 / 45
-22:25:35 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 50, 'min_samples': None, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:25:35 | INFO | # Clusters: 14 | Noise: 2.03% | Fraud in cluster: 44 | Fraud in noise: 5
-22:25:35 | INFO | Search 20 / 45
-22:25:51 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 50, 'min_samples': None, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:25:51 | INFO | # Clusters: 14 | Noise: 2.03% | Fraud in cluster: 44 | Fraud in noise: 5
-22:25:51 | INFO | Search 21 / 45
-22:26:09 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 50, 'min_samples': 5, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:26:09 | INFO | # Clusters: 226 | Noise: 5.69% | Fraud in cluster: 43 | Fraud in noise: 6
-22:26:09 | INFO | Search 22 / 45
-22:26:26 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 50, 'min_samples': 5, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:26:26 | INFO | # Clusters: 226 | Noise: 5.69% | Fraud in cluster: 43 | Fraud in noise: 6
-22:26:26 | INFO | Search 23 / 45
-22:26:43 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 50, 'min_samples': 5, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:26:43 | INFO | # Clusters: 226 | Noise: 5.69% | Fraud in cluster: 43 | Fraud in noise: 6
-22:26:43 | INFO | Search 24 / 45
-22:27:00 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 50, 'min_samples': 10, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:27:00 | INFO | # Clusters: 200 | Noise: 11.05% | Fraud in cluster: 36 | Fraud in noise: 13
-22:27:00 | INFO | Search 25 / 45
-22:27:17 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 50, 'min_samples': 10, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:27:17 | INFO | # Clusters: 200 | Noise: 11.05% | Fraud in cluster: 36 | Fraud in noise: 13
-22:27:17 | INFO | Search 26 / 45
-22:27:33 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 50, 'min_samples': 10, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:27:33 | INFO | # Clusters: 200 | Noise: 11.05% | Fraud in cluster: 36 | Fraud in noise: 13
-22:27:33 | INFO | Search 27 / 45
-22:27:50 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 75, 'min_samples': None, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:27:50 | INFO | # Clusters: 9 | Noise: 1.57% | Fraud in cluster: 44 | Fraud in noise: 5
-22:27:50 | INFO | Search 28 / 45
-22:28:06 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 75, 'min_samples': None, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:28:06 | INFO | # Clusters: 9 | Noise: 1.57% | Fraud in cluster: 44 | Fraud in noise: 5
-22:28:06 | INFO | Search 29 / 45
-22:28:22 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:15 | Parameters | {'min_cluster_size': 75, 'min_samples': None, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:28:22 | INFO | # Clusters: 9 | Noise: 1.57% | Fraud in cluster: 44 | Fraud in noise: 5
-22:28:22 | INFO | Search 30 / 45
-22:28:39 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 75, 'min_samples': 5, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:28:39 | INFO | # Clusters: 152 | Noise: 4.92% | Fraud in cluster: 43 | Fraud in noise: 6
-22:28:39 | INFO | Search 31 / 45
-22:28:57 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 75, 'min_samples': 5, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:28:57 | INFO | # Clusters: 152 | Noise: 4.92% | Fraud in cluster: 43 | Fraud in noise: 6
-22:28:57 | INFO | Search 32 / 45
-22:29:14 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 75, 'min_samples': 5, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:29:14 | INFO | # Clusters: 152 | Noise: 4.92% | Fraud in cluster: 43 | Fraud in noise: 6
-22:29:14 | INFO | Search 33 / 45
-22:29:31 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 75, 'min_samples': 10, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:29:31 | INFO | # Clusters: 73 | Noise: 6.09% | Fraud in cluster: 46 | Fraud in noise: 3
-22:29:31 | INFO | Search 34 / 45
-22:29:47 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 75, 'min_samples': 10, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:29:47 | INFO | # Clusters: 73 | Noise: 6.09% | Fraud in cluster: 46 | Fraud in noise: 3
-22:29:47 | INFO | Search 35 / 45
-22:30:04 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 75, 'min_samples': 10, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:30:04 | INFO | # Clusters: 73 | Noise: 6.09% | Fraud in cluster: 46 | Fraud in noise: 3
-22:30:04 | INFO | Search 36 / 45
-22:30:20 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 100, 'min_samples': None, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:30:20 | INFO | # Clusters: 7 | Noise: 2.77% | Fraud in cluster: 41 | Fraud in noise: 8
-22:30:20 | INFO | Search 37 / 45
-22:30:37 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 100, 'min_samples': None, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:30:37 | INFO | # Clusters: 7 | Noise: 2.77% | Fraud in cluster: 41 | Fraud in noise: 8
-22:30:37 | INFO | Search 38 / 45
-22:30:53 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 100, 'min_samples': None, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:30:53 | INFO | # Clusters: 7 | Noise: 2.77% | Fraud in cluster: 41 | Fraud in noise: 8
-22:30:53 | INFO | Search 39 / 45
-22:31:10 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 100, 'min_samples': 5, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:31:10 | INFO | # Clusters: 106 | Noise: 5.78% | Fraud in cluster: 42 | Fraud in noise: 7
-22:31:10 | INFO | Search 40 / 45
-22:31:28 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 100, 'min_samples': 5, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:31:28 | INFO | # Clusters: 106 | Noise: 5.78% | Fraud in cluster: 42 | Fraud in noise: 7
-22:31:28 | INFO | Search 41 / 45
-22:31:45 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:17 | Parameters | {'min_cluster_size': 100, 'min_samples': 5, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:31:45 | INFO | # Clusters: 106 | Noise: 5.78% | Fraud in cluster: 42 | Fraud in noise: 7
-22:31:45 | INFO | Search 42 / 45
-22:32:02 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 100, 'min_samples': 10, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} |
-22:32:02 | INFO | # Clusters: 11 | Noise: 0.93% | Fraud in cluster: 47 | Fraud in noise: 2
-22:32:02 | INFO | Search 43 / 45
-22:32:18 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 100, 'min_samples': 10, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:32:18 | INFO | # Clusters: 11 | Noise: 0.93% | Fraud in cluster: 47 | Fraud in noise: 2
-22:32:18 | INFO | Search 44 / 45
-22:32:35 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:16 | Parameters | {'min_cluster_size': 100, 'min_samples': 10, 'cluster_selection_epsilon': 5, 'n_jobs': -1} |
-22:32:35 | INFO | # Clusters: 11 | Noise: 0.93% | Fraud in cluster: 47 | Fraud in noise: 2
-22:44:43 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:19 | Parameters | {'min_cluster_size': 100, 'min_samples': 5, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:45:23 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:19 | Parameters | {'min_cluster_size': 50, 'min_samples': 5, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
-22:52:09 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:19 | Parameters | {'min_cluster_size': 50, 'min_samples': 5, 'cluster_selection_epsilon': 1, 'n_jobs': -1} |
+12:35:38 | INFO | Grid Search Initiated | Combinations to attempt: 18
+12:35:38 | INFO | Search 0 / 18
+12:36:21 | INFO | # Clusters: 873 | Noise: 58.54% | Fraud in cluster: 32 | Fraud in noise: 42
+12:36:21 | INFO | Search 1 / 18
+12:37:04 | INFO | # Clusters: 549 | Noise: 52.68% | Fraud in cluster: 32 | Fraud in noise: 42
+12:37:04 | INFO | Search 2 / 18
+12:37:38 | INFO | # Clusters: 1835 | Noise: 46.53% | Fraud in cluster: 44 | Fraud in noise: 30
+12:37:38 | INFO | Search 3 / 18
+12:38:13 | INFO | # Clusters: 1135 | Noise: 39.6% | Fraud in cluster: 44 | Fraud in noise: 30
+12:38:13 | INFO | Search 4 / 18
+12:38:58 | INFO | # Clusters: 351 | Noise: 65.24% | Fraud in cluster: 13 | Fraud in noise: 61
+12:38:58 | INFO | Search 5 / 18
+12:39:42 | INFO | # Clusters: 273 | Noise: 61.62% | Fraud in cluster: 13 | Fraud in noise: 61
+12:39:42 | INFO | Search 6 / 18
+12:40:30 | INFO | # Clusters: 73 | Noise: 60.73% | Fraud in cluster: 2 | Fraud in noise: 72
+12:40:30 | INFO | Search 7 / 18
+12:41:18 | INFO | # Clusters: 71 | Noise: 60.35% | Fraud in cluster: 2 | Fraud in noise: 72
+12:41:18 | INFO | Search 8 / 18
+12:41:53 | INFO | # Clusters: 285 | Noise: 45.34% | Fraud in cluster: 32 | Fraud in noise: 42
+12:41:53 | INFO | Search 9 / 18
+12:42:27 | INFO | # Clusters: 221 | Noise: 40.73% | Fraud in cluster: 32 | Fraud in noise: 42
+12:42:27 | INFO | Search 10 / 18
+12:43:12 | INFO | # Clusters: 171 | Noise: 63.47% | Fraud in cluster: 2 | Fraud in noise: 72
+12:43:12 | INFO | Search 11 / 18
+12:43:56 | INFO | # Clusters: 147 | Noise: 61.13% | Fraud in cluster: 2 | Fraud in noise: 72
+12:43:56 | INFO | Search 12 / 18
+12:44:48 | INFO | # Clusters: 33 | Noise: 64.06% | Fraud in cluster: 1 | Fraud in noise: 73
+12:44:48 | INFO | Search 13 / 18
+12:45:39 | INFO | # Clusters: 33 | Noise: 64.06% | Fraud in cluster: 1 | Fraud in noise: 73
+12:45:39 | INFO | Search 14 / 18
+12:46:13 | INFO | # Clusters: 158 | Noise: 45.24% | Fraud in cluster: 2 | Fraud in noise: 72
+12:46:13 | INFO | Search 15 / 18
+12:46:47 | INFO | # Clusters: 132 | Noise: 42.52% | Fraud in cluster: 2 | Fraud in noise: 72
+12:46:47 | INFO | Search 16 / 18
+12:47:31 | INFO | # Clusters: 79 | Noise: 54.49% | Fraud in cluster: 2 | Fraud in noise: 72
+12:47:31 | INFO | Search 17 / 18
+12:48:16 | INFO | # Clusters: 74 | Noise: 53.68% | Fraud in cluster: 2 | Fraud in noise: 72
+13:58:44 | INFO | Grid Search Initiated | Combinations to attempt: 27
+13:58:44 | INFO | Search 0 / 27
+13:59:25 | INFO | # Clusters: 9654 | Noise: 33.87% | Fraud in cluster: 49 | Fraud in noise: 25
+13:59:25 | INFO | Search 1 / 27
+14:00:54 | INFO | HBDScan Model Trained | Train Time (Minutes): 00:42 | Parameters | {'n_jobs': -1} |
+14:01:11 | INFO | Parameters: {'n_jobs': -1} | Clusters: 886 | Noise: 58.75% | Fraud in cluster: 32 | Fraud in noise: 42
+14:01:32 | INFO | Grid Search Initiated | Combinations to attempt: 27
+14:01:32 | INFO | Search 0 / 27
+14:03:05 | INFO | Grid Search Initiated | Combinations to attempt: 27
+14:03:05 | INFO | Search 0 / 27
+14:03:46 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': None, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} | Clusters: 9654 | Noise: 33.87% | Fraud in cluster: 49 | Fraud in noise: 25
+14:03:46 | INFO | Search 1 / 27
+14:04:27 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': None, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 8417 | Noise: 31.94% | Fraud in cluster: 49 | Fraud in noise: 25
+14:04:27 | INFO | Search 2 / 27
+14:05:08 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': None, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 5995 | Noise: 27.53% | Fraud in cluster: 49 | Fraud in noise: 25
+14:05:08 | INFO | Search 3 / 27
+14:05:44 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} | Clusters: 9654 | Noise: 33.87% | Fraud in cluster: 49 | Fraud in noise: 25
+14:05:44 | INFO | Search 4 / 27
+14:06:21 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 8417 | Noise: 31.94% | Fraud in cluster: 49 | Fraud in noise: 25
+14:06:21 | INFO | Search 5 / 27
+14:06:58 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 5995 | Noise: 27.53% | Fraud in cluster: 49 | Fraud in noise: 25
+14:06:58 | INFO | Search 6 / 27
+14:07:43 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 10, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} | Clusters: 468 | Noise: 65.3% | Fraud in cluster: 13 | Fraud in noise: 61
+14:07:43 | INFO | Search 7 / 27
+14:08:28 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 10, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 460 | Noise: 64.98% | Fraud in cluster: 13 | Fraud in noise: 61
+14:08:28 | INFO | Search 8 / 27
+14:09:12 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 10, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 371 | Noise: 61.79% | Fraud in cluster: 13 | Fraud in noise: 61
+14:09:12 | INFO | Search 9 / 27
+14:09:55 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': None, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} | Clusters: 873 | Noise: 58.54% | Fraud in cluster: 32 | Fraud in noise: 42
+14:09:55 | INFO | Search 10 / 27
+14:10:37 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': None, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 802 | Noise: 57.54% | Fraud in cluster: 32 | Fraud in noise: 42
+14:10:37 | INFO | Search 11 / 27
+14:11:20 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': None, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 549 | Noise: 52.68% | Fraud in cluster: 32 | Fraud in noise: 42
+14:11:20 | INFO | Search 12 / 27
+14:11:55 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 1, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} | Clusters: 1835 | Noise: 46.53% | Fraud in cluster: 44 | Fraud in noise: 30
+14:11:55 | INFO | Search 13 / 27
+14:12:30 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 1, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 1700 | Noise: 45.23% | Fraud in cluster: 44 | Fraud in noise: 30
+14:12:30 | INFO | Search 14 / 27
+14:13:04 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 1, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 1135 | Noise: 39.6% | Fraud in cluster: 44 | Fraud in noise: 30
+14:13:04 | INFO | Search 15 / 27
+14:13:50 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 10, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} | Clusters: 351 | Noise: 65.24% | Fraud in cluster: 13 | Fraud in noise: 61
+14:13:50 | INFO | Search 16 / 27
+14:14:35 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 10, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 344 | Noise: 64.91% | Fraud in cluster: 13 | Fraud in noise: 61
+14:14:35 | INFO | Search 17 / 27
+14:15:20 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 10, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 273 | Noise: 61.62% | Fraud in cluster: 13 | Fraud in noise: 61
+14:15:20 | INFO | Search 18 / 27
+14:16:09 | INFO | Parameters: {'min_cluster_size': 25, 'min_samples': None, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} | Clusters: 73 | Noise: 60.73% | Fraud in cluster: 2 | Fraud in noise: 72
+14:16:09 | INFO | Search 19 / 27
+14:16:58 | INFO | Parameters: {'min_cluster_size': 25, 'min_samples': None, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 73 | Noise: 60.73% | Fraud in cluster: 2 | Fraud in noise: 72
+14:16:58 | INFO | Search 20 / 27
+14:17:47 | INFO | Parameters: {'min_cluster_size': 25, 'min_samples': None, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 71 | Noise: 60.35% | Fraud in cluster: 2 | Fraud in noise: 72
+14:17:47 | INFO | Search 21 / 27
+14:18:22 | INFO | Parameters: {'min_cluster_size': 25, 'min_samples': 1, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} | Clusters: 285 | Noise: 45.34% | Fraud in cluster: 32 | Fraud in noise: 42
+14:18:22 | INFO | Search 22 / 27
+14:18:56 | INFO | Parameters: {'min_cluster_size': 25, 'min_samples': 1, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 285 | Noise: 45.34% | Fraud in cluster: 32 | Fraud in noise: 42
+14:18:56 | INFO | Search 23 / 27
+14:19:31 | INFO | Parameters: {'min_cluster_size': 25, 'min_samples': 1, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 221 | Noise: 40.73% | Fraud in cluster: 32 | Fraud in noise: 42
+14:19:31 | INFO | Search 24 / 27
+14:20:15 | INFO | Parameters: {'min_cluster_size': 25, 'min_samples': 10, 'cluster_selection_epsilon': 0.1, 'n_jobs': -1} | Clusters: 171 | Noise: 63.47% | Fraud in cluster: 2 | Fraud in noise: 72
+14:20:15 | INFO | Search 25 / 27
+14:20:59 | INFO | Parameters: {'min_cluster_size': 25, 'min_samples': 10, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 171 | Noise: 63.47% | Fraud in cluster: 2 | Fraud in noise: 72
+14:20:59 | INFO | Search 26 / 27
+14:21:43 | INFO | Parameters: {'min_cluster_size': 25, 'min_samples': 10, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 147 | Noise: 61.13% | Fraud in cluster: 2 | Fraud in noise: 72
+14:52:16 | INFO | Grid Search Initiated | Combinations to attempt: 27
+14:52:16 | INFO | Search 0 / 27
+14:52:53 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 8417 | Noise: 31.94% | Fraud in cluster: 49 | Fraud in noise: 25
+14:52:53 | INFO | Search 1 / 27
+14:53:29 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 5995 | Noise: 27.53% | Fraud in cluster: 49 | Fraud in noise: 25
+14:53:29 | INFO | Search 2 / 27
+14:54:06 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 3531 | Noise: 19.93% | Fraud in cluster: 51 | Fraud in noise: 23
+14:54:06 | INFO | Search 3 / 27
+14:54:47 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 2, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 8417 | Noise: 31.94% | Fraud in cluster: 49 | Fraud in noise: 25
+14:54:47 | INFO | Search 4 / 27
+14:55:29 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 2, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 5995 | Noise: 27.53% | Fraud in cluster: 49 | Fraud in noise: 25
+14:55:29 | INFO | Search 5 / 27
+14:56:10 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 2, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 3531 | Noise: 19.93% | Fraud in cluster: 51 | Fraud in noise: 23
+14:56:10 | INFO | Search 6 / 27
+14:56:51 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 3, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 3507 | Noise: 50.11% | Fraud in cluster: 37 | Fraud in noise: 37
+14:56:51 | INFO | Search 7 / 27
+14:57:32 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 3, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 2388 | Noise: 43.92% | Fraud in cluster: 37 | Fraud in noise: 37
+14:57:32 | INFO | Search 8 / 27
+14:58:13 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 3, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 1337 | Noise: 32.36% | Fraud in cluster: 37 | Fraud in noise: 37
+14:58:13 | INFO | Search 9 / 27
+14:58:48 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 1, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 1700 | Noise: 45.23% | Fraud in cluster: 44 | Fraud in noise: 30
+14:58:48 | INFO | Search 10 / 27
+14:59:22 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 1, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 1135 | Noise: 39.6% | Fraud in cluster: 44 | Fraud in noise: 30
+14:59:22 | INFO | Search 11 / 27
+14:59:57 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 1, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 649 | Noise: 28.85% | Fraud in cluster: 44 | Fraud in noise: 30
+14:59:57 | INFO | Search 12 / 27
+15:00:36 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 2, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 1700 | Noise: 45.23% | Fraud in cluster: 44 | Fraud in noise: 30
+15:00:36 | INFO | Search 13 / 27
+15:01:15 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 2, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 1135 | Noise: 39.6% | Fraud in cluster: 44 | Fraud in noise: 30
+15:01:15 | INFO | Search 14 / 27
+15:01:54 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 2, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 649 | Noise: 28.85% | Fraud in cluster: 44 | Fraud in noise: 30
+15:01:54 | INFO | Search 15 / 27
+15:02:35 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 3, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 1303 | Noise: 50.73% | Fraud in cluster: 42 | Fraud in noise: 32
+15:02:35 | INFO | Search 16 / 27
+15:03:16 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 3, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 847 | Noise: 45.06% | Fraud in cluster: 42 | Fraud in noise: 32
+15:03:16 | INFO | Search 17 / 27
+15:03:57 | INFO | Parameters: {'min_cluster_size': 5, 'min_samples': 3, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 467 | Noise: 33.25% | Fraud in cluster: 42 | Fraud in noise: 32
+15:03:57 | INFO | Search 18 / 27
+15:04:31 | INFO | Parameters: {'min_cluster_size': 10, 'min_samples': 1, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 705 | Noise: 45.74% | Fraud in cluster: 32 | Fraud in noise: 42
+15:04:31 | INFO | Search 19 / 27
+15:05:05 | INFO | Parameters: {'min_cluster_size': 10, 'min_samples': 1, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 499 | Noise: 41.13% | Fraud in cluster: 32 | Fraud in noise: 42
+15:05:05 | INFO | Search 20 / 27
+15:05:40 | INFO | Parameters: {'min_cluster_size': 10, 'min_samples': 1, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 295 | Noise: 30.34% | Fraud in cluster: 32 | Fraud in noise: 42
+15:05:40 | INFO | Search 21 / 27
+15:06:19 | INFO | Parameters: {'min_cluster_size': 10, 'min_samples': 2, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 705 | Noise: 45.74% | Fraud in cluster: 32 | Fraud in noise: 42
+15:06:19 | INFO | Search 22 / 27
+15:06:59 | INFO | Parameters: {'min_cluster_size': 10, 'min_samples': 2, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 499 | Noise: 41.13% | Fraud in cluster: 32 | Fraud in noise: 42
+15:06:59 | INFO | Search 23 / 27
+15:07:38 | INFO | Parameters: {'min_cluster_size': 10, 'min_samples': 2, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 295 | Noise: 30.34% | Fraud in cluster: 32 | Fraud in noise: 42
+15:07:38 | INFO | Search 24 / 27
+15:08:18 | INFO | Parameters: {'min_cluster_size': 10, 'min_samples': 3, 'cluster_selection_epsilon': 0.5, 'n_jobs': -1} | Clusters: 597 | Noise: 49.84% | Fraud in cluster: 31 | Fraud in noise: 43
+15:08:18 | INFO | Search 25 / 27
+15:08:58 | INFO | Parameters: {'min_cluster_size': 10, 'min_samples': 3, 'cluster_selection_epsilon': 1, 'n_jobs': -1} | Clusters: 418 | Noise: 45.19% | Fraud in cluster: 31 | Fraud in noise: 43
+15:08:58 | INFO | Search 26 / 27
+15:09:38 | INFO | Parameters: {'min_cluster_size': 10, 'min_samples': 3, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 248 | Noise: 33.99% | Fraud in cluster: 31 | Fraud in noise: 43
+15:13:39 | INFO | Grid Search Initiated | Combinations to attempt: 36
+15:13:39 | INFO | Search 0 / 36
+15:14:16 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 3531 | Noise: 19.93% | Fraud in cluster: 51 | Fraud in noise: 23
+15:14:16 | INFO | Search 1 / 36
+15:14:52 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 1.65, 'n_jobs': -1} | Clusters: 3008 | Noise: 17.79% | Fraud in cluster: 51 | Fraud in noise: 23
+15:14:52 | INFO | Search 2 / 36
+15:15:29 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 1.8, 'n_jobs': -1} | Clusters: 2555 | Noise: 15.66% | Fraud in cluster: 51 | Fraud in noise: 23
+15:15:29 | INFO | Search 3 / 36
+15:16:06 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 2, 'n_jobs': -1} | Clusters: 1989 | Noise: 13.2% | Fraud in cluster: 51 | Fraud in noise: 23
+15:16:06 | INFO | Search 4 / 36
+15:16:43 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 2.5, 'n_jobs': -1} | Clusters: 1055 | Noise: 7.83% | Fraud in cluster: 51 | Fraud in noise: 23
+15:16:43 | INFO | Search 5 / 36
+15:17:20 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 3, 'n_jobs': -1} | Clusters: 623 | Noise: 4.79% | Fraud in cluster: 53 | Fraud in noise: 21
+15:17:20 | INFO | Search 6 / 36
+15:18:01 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 2, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 3531 | Noise: 19.93% | Fraud in cluster: 51 | Fraud in noise: 23
+15:18:01 | INFO | Search 7 / 36
+15:18:42 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 2, 'cluster_selection_epsilon': 1.65, 'n_jobs': -1} | Clusters: 3008 | Noise: 17.79% | Fraud in cluster: 51 | Fraud in noise: 23
+15:18:42 | INFO | Search 8 / 36
+15:19:24 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 2, 'cluster_selection_epsilon': 1.8, 'n_jobs': -1} | Clusters: 2555 | Noise: 15.66% | Fraud in cluster: 51 | Fraud in noise: 23
+15:19:24 | INFO | Search 9 / 36
+15:20:06 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 2, 'cluster_selection_epsilon': 2, 'n_jobs': -1} | Clusters: 1989 | Noise: 13.2% | Fraud in cluster: 51 | Fraud in noise: 23
+15:20:06 | INFO | Search 10 / 36
+15:20:48 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 2, 'cluster_selection_epsilon': 2.5, 'n_jobs': -1} | Clusters: 1055 | Noise: 7.83% | Fraud in cluster: 51 | Fraud in noise: 23
+15:20:48 | INFO | Search 11 / 36
+15:21:30 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 2, 'cluster_selection_epsilon': 3, 'n_jobs': -1} | Clusters: 623 | Noise: 4.79% | Fraud in cluster: 53 | Fraud in noise: 21
+15:21:30 | INFO | Search 12 / 36
+15:22:06 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 1, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 1592 | Noise: 25.82% | Fraud in cluster: 40 | Fraud in noise: 34
+15:22:06 | INFO | Search 13 / 36
+15:22:41 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 1, 'cluster_selection_epsilon': 1.65, 'n_jobs': -1} | Clusters: 1352 | Noise: 22.88% | Fraud in cluster: 40 | Fraud in noise: 34
+15:22:41 | INFO | Search 14 / 36
+15:23:16 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 1, 'cluster_selection_epsilon': 1.8, 'n_jobs': -1} | Clusters: 1144 | Noise: 20.43% | Fraud in cluster: 40 | Fraud in noise: 34
+15:23:16 | INFO | Search 15 / 36
+15:23:51 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 1, 'cluster_selection_epsilon': 2, 'n_jobs': -1} | Clusters: 861 | Noise: 17.28% | Fraud in cluster: 40 | Fraud in noise: 34
+15:23:51 | INFO | Search 16 / 36
+15:24:25 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 1, 'cluster_selection_epsilon': 2.5, 'n_jobs': -1} | Clusters: 421 | Noise: 10.23% | Fraud in cluster: 41 | Fraud in noise: 33
+15:24:25 | INFO | Search 17 / 36
+15:25:00 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 1, 'cluster_selection_epsilon': 3, 'n_jobs': -1} | Clusters: 241 | Noise: 6.24% | Fraud in cluster: 42 | Fraud in noise: 32
+15:25:00 | INFO | Search 18 / 36
+15:25:41 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 2, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 1592 | Noise: 25.82% | Fraud in cluster: 40 | Fraud in noise: 34
+15:25:41 | INFO | Search 19 / 36
+15:26:21 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 2, 'cluster_selection_epsilon': 1.65, 'n_jobs': -1} | Clusters: 1352 | Noise: 22.88% | Fraud in cluster: 40 | Fraud in noise: 34
+15:26:21 | INFO | Search 20 / 36
+15:27:01 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 2, 'cluster_selection_epsilon': 1.8, 'n_jobs': -1} | Clusters: 1144 | Noise: 20.43% | Fraud in cluster: 40 | Fraud in noise: 34
+15:27:01 | INFO | Search 21 / 36
+15:27:41 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 2, 'cluster_selection_epsilon': 2, 'n_jobs': -1} | Clusters: 861 | Noise: 17.28% | Fraud in cluster: 40 | Fraud in noise: 34
+15:27:41 | INFO | Search 22 / 36
+15:28:21 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 2, 'cluster_selection_epsilon': 2.5, 'n_jobs': -1} | Clusters: 421 | Noise: 10.23% | Fraud in cluster: 41 | Fraud in noise: 33
+15:28:21 | INFO | Search 23 / 36
+15:29:01 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 2, 'cluster_selection_epsilon': 3, 'n_jobs': -1} | Clusters: 241 | Noise: 6.24% | Fraud in cluster: 42 | Fraud in noise: 32
+15:29:01 | INFO | Search 24 / 36
+15:29:36 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 1, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 932 | Noise: 27.78% | Fraud in cluster: 40 | Fraud in noise: 34
+15:29:36 | INFO | Search 25 / 36
+15:30:11 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 1, 'cluster_selection_epsilon': 1.65, 'n_jobs': -1} | Clusters: 799 | Noise: 24.86% | Fraud in cluster: 40 | Fraud in noise: 34
+15:30:11 | INFO | Search 26 / 36
+15:30:45 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 1, 'cluster_selection_epsilon': 1.8, 'n_jobs': -1} | Clusters: 680 | Noise: 22.27% | Fraud in cluster: 40 | Fraud in noise: 34
+15:30:45 | INFO | Search 27 / 36
+15:31:20 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 1, 'cluster_selection_epsilon': 2, 'n_jobs': -1} | Clusters: 502 | Noise: 19.1% | Fraud in cluster: 40 | Fraud in noise: 34
+15:31:20 | INFO | Search 28 / 36
+15:31:55 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 1, 'cluster_selection_epsilon': 2.5, 'n_jobs': -1} | Clusters: 232 | Noise: 11.22% | Fraud in cluster: 42 | Fraud in noise: 32
+15:31:55 | INFO | Search 29 / 36
+15:32:29 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 1, 'cluster_selection_epsilon': 3, 'n_jobs': -1} | Clusters: 128 | Noise: 6.97% | Fraud in cluster: 43 | Fraud in noise: 31
+15:32:29 | INFO | Search 30 / 36
+15:33:09 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 2, 'cluster_selection_epsilon': 1.5, 'n_jobs': -1} | Clusters: 932 | Noise: 27.78% | Fraud in cluster: 40 | Fraud in noise: 34
+15:33:09 | INFO | Search 31 / 36
+15:33:49 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 2, 'cluster_selection_epsilon': 1.65, 'n_jobs': -1} | Clusters: 799 | Noise: 24.86% | Fraud in cluster: 40 | Fraud in noise: 34
+15:33:49 | INFO | Search 32 / 36
+15:34:28 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 2, 'cluster_selection_epsilon': 1.8, 'n_jobs': -1} | Clusters: 680 | Noise: 22.27% | Fraud in cluster: 40 | Fraud in noise: 34
+15:34:28 | INFO | Search 33 / 36
+15:35:08 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 2, 'cluster_selection_epsilon': 2, 'n_jobs': -1} | Clusters: 502 | Noise: 19.1% | Fraud in cluster: 40 | Fraud in noise: 34
+15:35:08 | INFO | Search 34 / 36
+15:35:48 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 2, 'cluster_selection_epsilon': 2.5, 'n_jobs': -1} | Clusters: 232 | Noise: 11.22% | Fraud in cluster: 42 | Fraud in noise: 32
+15:35:48 | INFO | Search 35 / 36
+15:36:27 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 2, 'cluster_selection_epsilon': 3, 'n_jobs': -1} | Clusters: 128 | Noise: 6.97% | Fraud in cluster: 43 | Fraud in noise: 31
+16:30:39 | INFO | Grid Search Initiated | Combinations to attempt: 18
+16:30:39 | INFO | Search 0 / 18
+16:31:16 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 2.25, 'n_jobs': -1} | Clusters: 1438 | Noise: 10.15% | Fraud in cluster: 51 | Fraud in noise: 23
+16:31:16 | INFO | Search 1 / 18
+16:31:53 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 3, 'n_jobs': -1} | Clusters: 623 | Noise: 4.79% | Fraud in cluster: 53 | Fraud in noise: 21
+16:31:53 | INFO | Search 2 / 18
+16:32:30 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 3.25, 'n_jobs': -1} | Clusters: 483 | Noise: 3.84% | Fraud in cluster: 53 | Fraud in noise: 21
+16:32:30 | INFO | Search 3 / 18
+16:33:07 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 3.5, 'n_jobs': -1} | Clusters: 368 | Noise: 3.1% | Fraud in cluster: 54 | Fraud in noise: 20
+16:33:07 | INFO | Search 4 / 18
+16:33:44 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 3.75, 'n_jobs': -1} | Clusters: 302 | Noise: 2.5% | Fraud in cluster: 54 | Fraud in noise: 20
+16:33:44 | INFO | Search 5 / 18
+16:34:21 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 4, 'n_jobs': -1} | Clusters: 234 | Noise: 2.05% | Fraud in cluster: 54 | Fraud in noise: 20
+16:34:21 | INFO | Search 6 / 18
+16:34:56 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 1, 'cluster_selection_epsilon': 2.25, 'n_jobs': -1} | Clusters: 590 | Noise: 13.28% | Fraud in cluster: 40 | Fraud in noise: 34
+16:34:56 | INFO | Search 7 / 18
+16:35:31 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 1, 'cluster_selection_epsilon': 3, 'n_jobs': -1} | Clusters: 241 | Noise: 6.24% | Fraud in cluster: 42 | Fraud in noise: 32
+16:35:31 | INFO | Search 8 / 18
+16:36:07 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 1, 'cluster_selection_epsilon': 3.25, 'n_jobs': -1} | Clusters: 190 | Noise: 5.0% | Fraud in cluster: 42 | Fraud in noise: 32
+16:36:07 | INFO | Search 9 / 18
+16:36:41 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 1, 'cluster_selection_epsilon': 3.5, 'n_jobs': -1} | Clusters: 146 | Noise: 3.97% | Fraud in cluster: 43 | Fraud in noise: 31
+16:36:41 | INFO | Search 10 / 18
+16:37:17 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 1, 'cluster_selection_epsilon': 3.75, 'n_jobs': -1} | Clusters: 117 | Noise: 3.29% | Fraud in cluster: 43 | Fraud in noise: 31
+16:37:17 | INFO | Search 11 / 18
+16:37:52 | INFO | Parameters: {'min_cluster_size': 3, 'min_samples': 1, 'cluster_selection_epsilon': 4, 'n_jobs': -1} | Clusters: 88 | Noise: 2.67% | Fraud in cluster: 43 | Fraud in noise: 31
+16:37:52 | INFO | Search 12 / 18
+16:38:26 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 1, 'cluster_selection_epsilon': 2.25, 'n_jobs': -1} | Clusters: 328 | Noise: 14.57% | Fraud in cluster: 41 | Fraud in noise: 33
+16:38:26 | INFO | Search 13 / 18
+16:39:01 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 1, 'cluster_selection_epsilon': 3, 'n_jobs': -1} | Clusters: 128 | Noise: 6.97% | Fraud in cluster: 43 | Fraud in noise: 31
+16:39:01 | INFO | Search 14 / 18
+16:39:36 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 1, 'cluster_selection_epsilon': 3.25, 'n_jobs': -1} | Clusters: 98 | Noise: 5.6% | Fraud in cluster: 43 | Fraud in noise: 31
+16:39:36 | INFO | Search 15 / 18
+16:40:10 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 1, 'cluster_selection_epsilon': 3.5, 'n_jobs': -1} | Clusters: 69 | Noise: 4.45% | Fraud in cluster: 44 | Fraud in noise: 30
+16:40:10 | INFO | Search 16 / 18
+16:40:45 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 1, 'cluster_selection_epsilon': 3.75, 'n_jobs': -1} | Clusters: 51 | Noise: 3.67% | Fraud in cluster: 44 | Fraud in noise: 30
+16:40:45 | INFO | Search 17 / 18
+16:41:20 | INFO | Parameters: {'min_cluster_size': 4, 'min_samples': 1, 'cluster_selection_epsilon': 4, 'n_jobs': -1} | Clusters: 42 | Noise: 2.96% | Fraud in cluster: 44 | Fraud in noise: 30
+17:24:15 | INFO | Grid Search Initiated | Combinations to attempt: 13
+17:24:15 | INFO | Search 0 / 13
+17:24:52 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 4, 'n_jobs': -1} | Clusters: 234 | Noise: 2.05% | Fraud in cluster: 54 | Fraud in noise: 20
+17:24:52 | INFO | Search 1 / 13
+17:25:29 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 4.5, 'n_jobs': -1} | Clusters: 159 | Noise: 1.35% | Fraud in cluster: 55 | Fraud in noise: 19
+17:25:29 | INFO | Search 2 / 13
+17:26:06 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 5, 'n_jobs': -1} | Clusters: 120 | Noise: 0.92% | Fraud in cluster: 56 | Fraud in noise: 18
+17:26:06 | INFO | Search 3 / 13
+17:26:44 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 5.5, 'n_jobs': -1} | Clusters: 92 | Noise: 0.62% | Fraud in cluster: 56 | Fraud in noise: 18
+17:26:44 | INFO | Search 4 / 13
+17:27:21 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 6, 'n_jobs': -1} | Clusters: 74 | Noise: 0.43% | Fraud in cluster: 60 | Fraud in noise: 14
+17:27:21 | INFO | Search 5 / 13
+17:27:58 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 6.5, 'n_jobs': -1} | Clusters: 58 | Noise: 0.29% | Fraud in cluster: 65 | Fraud in noise: 9
+17:27:58 | INFO | Search 6 / 13
+17:28:35 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 7, 'n_jobs': -1} | Clusters: 49 | Noise: 0.25% | Fraud in cluster: 65 | Fraud in noise: 9
+17:28:35 | INFO | Search 7 / 13
+17:29:12 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 7.5, 'n_jobs': -1} | Clusters: 37 | Noise: 0.19% | Fraud in cluster: 66 | Fraud in noise: 8
+17:29:12 | INFO | Search 8 / 13
+17:29:49 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 8, 'n_jobs': -1} | Clusters: 31 | Noise: 0.16% | Fraud in cluster: 66 | Fraud in noise: 8
+17:29:49 | INFO | Search 9 / 13
+17:30:26 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 8.5, 'n_jobs': -1} | Clusters: 26 | Noise: 0.12% | Fraud in cluster: 66 | Fraud in noise: 8
+17:30:26 | INFO | Search 10 / 13
+17:31:04 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 9, 'n_jobs': -1} | Clusters: 22 | Noise: 0.09% | Fraud in cluster: 68 | Fraud in noise: 6
+17:31:04 | INFO | Search 11 / 13
+17:31:41 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 9.5, 'n_jobs': -1} | Clusters: 20 | Noise: 0.08% | Fraud in cluster: 68 | Fraud in noise: 6
+17:31:41 | INFO | Search 12 / 13
+17:32:18 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 10, 'n_jobs': -1} | Clusters: 18 | Noise: 0.07% | Fraud in cluster: 69 | Fraud in noise: 5
+17:34:06 | INFO | Grid Search Initiated | Combinations to attempt: 5
+17:34:06 | INFO | Search 1 / 5
+17:34:44 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 11, 'n_jobs': -1} | Clusters: 16 | Noise: 0.06% | Fraud in cluster: 69 | Fraud in noise: 5
+17:34:44 | INFO | Search 2 / 5
+17:35:21 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 12, 'n_jobs': -1} | Clusters: 15 | Noise: 0.06% | Fraud in cluster: 70 | Fraud in noise: 4
+17:35:21 | INFO | Search 3 / 5
+17:35:58 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 13, 'n_jobs': -1} | Clusters: 13 | Noise: 0.05% | Fraud in cluster: 71 | Fraud in noise: 3
+17:35:58 | INFO | Search 4 / 5
+17:36:35 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 14, 'n_jobs': -1} | Clusters: 10 | Noise: 0.04% | Fraud in cluster: 72 | Fraud in noise: 2
+17:36:35 | INFO | Search 5 / 5
+17:37:12 | INFO | Parameters: {'min_cluster_size': 2, 'min_samples': 1, 'cluster_selection_epsilon': 15, 'n_jobs': -1} | Clusters: 9 | Noise: 0.03% | Fraud in cluster: 72 | Fraud in noise: 2
